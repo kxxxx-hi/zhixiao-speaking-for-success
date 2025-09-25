@@ -1,4 +1,3 @@
-```python
 # index.py — Streamlit version of your flashcards app
 # Run locally:  streamlit run index.py
 # Deploy on Streamlit Cloud with requirements: streamlit
@@ -85,7 +84,7 @@ html_content = f"""<!DOCTYPE html>
 </head>
 <body>
   <div class="flashcard-container">
-    <h1 class="text-3xl font-bold text-gray-800 mb-4">English-Chinese Flashcards</h1>
+    <h1 class="text-3xl font-bold text-gray-800 mb-4">Speaking Flashcards for Zhixiao</h1>
     <hr class="w-full h-1 bg-gray-200 rounded my-4">
 
     <div class="flex flex-col sm:flex-row justify-center gap-4 mb-6 w-full">
@@ -202,4 +201,3 @@ html_content = f"""<!DOCTYPE html>
 # Render the full HTML app inside Streamlit
 # Increase height if needed
 html(html_content, height=900, scrolling=True)
-```
